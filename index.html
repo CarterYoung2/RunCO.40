@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Materialize RunCOe</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+   <style>
+       body {
+           background-color: #3f97da;
+           font-family: Arial, sans-serif;
+       }
+       .container {
+           margin-top: 20px;
+       }
+       h4 {
+           color: #c5c5c5;
+       }
+       .card .card-image img {
+           height: 200px;
+           object-fit: cover;
+       }
+   </style>
+</head>
+<nav>
+       <div class="nav-wrapper teal">
+           <nav class="header-bg">
+        <ul>
+            <li><a href="about.html">Home</a></li>
+            <li><a href="Gear.html">Gear</a></li>
+            <li><a href="content.html">Contact</a></li>
+            <li><a href="index.html">Material</a></li>
+                    </ul>
+                 </div>
+             </div>
+             </nav>
+  <body>
+     <!-- Text and Background -->
+     <div class="container">
+         <h4 class="center-align">Welcome to RunCO</h4>
+         <p class="flow-text">RunCO is the future of fitness.</p>
+     </div>
+  
+  
+     <!-- Buttons -->
+     <div class="container">
+         <h4>Runing Info</h4>
+        <a href="https://www.webmd.com/fitness-exercise/health-benefits-running" class="waves-effect waves-light btn-large">Read this!</a>
+         <a href="https://www.betterhealth.vic.gov.au/health/healthyliving/running-and-jogging-health-benefits" class="waves-effect waves-light btn-large">Running and jogging</a>
+     </div>
+  
+  
+     <!-- Cards -->
+     <div class="container">
+        <div class="container">
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/hAhGInv6KbY" 
+                    frameborder="0" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>        
+     </div>
+<!-- Tables -->
+<div class="container">
+    <h4>Our products</h4>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td><strong>Performance Running Shoes</strong></td>
+            <td>Lightweight, supportive, and built for speed.</td>
+            <td>$129.99</td>
+        </tr>
+        <tr>
+            <td><strong>Moisture-Wicking Running Shirt</strong></td>
+            <td>Stay cool and dry on every run.</td>
+            <td>$34.99</td>
+        </tr>
+        <tr>
+            <td><strong>Hydration Running Belt</strong></td>
+            <td>Carry water and essentials hands-free.</td>
+            <td>$39.99</td>
+        </tr>
+    </table>
+</div>
+
+
+<!-- Shading -->
+<div class="container">
+    <h4>How far will You go?</h4>
+    <div class="card-panel teal lighten-2">
+        <span class="white-text">Running isn't just exercise—it’s a journey of transformation. With every step, you build strength, resilience, and a mindset that pushes past limits. Whether you're chasing a goal or simply clearing your mind, running has the power to change your life—one stride at a time.</span>
+    </div>
+</div>
+
+
+<!-- Images -->
+<div class="container">
+    <h4>The crystal ball...</h4>
+    <div class="row center-align">
+        <div class="col s12">
+            <img src="https://images.unsplash.com/photo-1553969546-6f7388a7e07c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cnVubmluZ3xlbnwwfHwwfHx8MA%3D%3D" 
+                 alt="Running Image" 
+                 class="circle responsive-img">
+        </div>
+    </div>
+<!-- Materialize JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.materialboxed');
+        var instances = M.Materialbox.init(elems);
+    });
+</script>
+</body>
+</html>
